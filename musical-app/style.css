@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background: linear-gradient(135deg, #ea7d0f, #deb975);
+    font-family: "Redaction 10", serif;  
+    padding: 20px; 
+}
+
+
+.container-musical{
+    background-color: white;
+    width: 350px; 
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.imagen-portada {
+    width: 150px; /*  */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /**/
+    margin-bottom: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+h1 {
+    color: #333333;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+.container-musical {
+    position: relative;
+    z-index: 1;
+}  
+
+
+
+p{
+    color: rgb(233, 170, 224);
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+.lista-canciones {
+    display: flex;
+    flex-direction: column; /* Apila las canciones una debajo de otra */
+    gap: 15px; /* Crea una separación automática entre cada canción */
+}

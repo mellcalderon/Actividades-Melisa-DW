@@ -1,12 +1,74 @@
-!DOCTYPE html>
-<html lang="es">
-<head>
-<title>Musical Mel</title>
+<!DOCTYPE html>
+<!--Doctype es una sentencia que indica que voy a trabajar con un 
+documento de HTML-->
+
+<html lang="es"> <!--qui inicia mi pagina con la etiqueta de html-->
+<head><!-- Aqui en el head esta todo lo que no es visible en la pagina pero lo hace funcional --> 
+  <!--con los metadatos puedo colocar caracteres especiales, dar informacion al SEO para posicionar-->
+  <meta charset="UTF-8"> <!--Permite caracteres especiales-->
+  <meta name="description" content="Musica alternativa">
+  <meta name="author" content="Melisa Calderon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+<title>Musical de Mel</title>
 </head>
 <body>
 
-<h1>Musical Mel</h1>
-<p>Escucha mis 3 canciones de pop</p>
+    <div class="container-musical"> 
+      <img src="Frank.jpg" alt="Imagen de musical app" class="imagen-portada">
 
+      <h1>Musica de Mel</h1>
+      <p class="pmusical"> 🪐 Escucha las mejores canciones de alternativo</p> 
+
+      <div class="lista-canciones">
+        <!--CANCION 1-->
+        <div class="canciones">
+          <p>1. Thinkin Bout You</p>
+          <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Thinkin Bout You by Frank Ocean.mp3">
+                </audio>
+
+
+        </div>
+
+        <div class="lista-canciones">
+        <!--CANCION 1-->
+        <div class="canciones">
+          <p>1. God is Fair</p>
+          <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="God Is Fair by Mac Miller mp3">
+                </audio>
+
+
+        </div>
+
+        <div class="lista-canciones">
+        <!--CANCION 1-->
+        <div class="canciones">
+          <p>1. Love Lost</p>
+          <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Love Lost by Mac Miller.mp3"> 
+                </audio>
+
+
+        </div>
+
+
+
+      </div>
+  
+
+
+
+
+
+  </div>
 </body>
 </html>
