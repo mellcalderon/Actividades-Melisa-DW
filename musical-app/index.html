@@ -22,53 +22,71 @@ documento de HTML-->
       <img src="Frank.jpg" alt="Imagen de musical app" class="imagen-portada">
 
       <h1>Musica de Mel</h1>
-      <p class="pmusical"> 🪐 Escucha las mejores canciones de alternativo</p> 
+      <p class="pmusical"> 🎶  Escucha las mejores canciones de alternativo</p> 
 
-      <div class="lista-canciones">
+      <!-- <div class="lista-canciones"> -->
         <!--CANCION 1-->
-        <div class="canciones">
-          <p>1. Thinkin Bout You</p>
-          <audio controls class="audio-player">
+       <!--  <div class="canciones"> -->
+         <!--  <p>1. Thinkin Bout You</p> -->
+         <!--  <audio controls class="audio-player"> -->
                     <!-- Mp3 de prueba 1 -->
-                    <source src="Thinkin Bout You by Frank Ocean.mp3">
-                </audio>
+                  <!--   <source src="Thinkin Bout You by Frank Ocean.mp3"> -->
+             <!--    </audio> -->
 
 
-        </div>
+       <!--  </div> -->
 
-        <div class="lista-canciones">
+      <!--   <div class="lista-canciones"> -->
         <!--CANCION 1-->
-        <div class="canciones">
-          <p>1. God is Fair</p>
-          <audio controls class="audio-player">
+     <!--    <div class="canciones"> -->
+         <!--  <p>1. God is Fair</p>
+          <audio controls class="audio-player"> -->
                     <!-- Mp3 de prueba 1 -->
-                    <source src="God Is Fair by Mac Miller mp3">
-                </audio>
+                   <!--  <source src="God Is Fair by Mac Miller mp3.mp3">
+                </audio> -->
 
 
-        </div>
+      <!--   </div> -->
 
-        <div class="lista-canciones">
+       <!--  <div class="lista-canciones"> -->
         <!--CANCION 1-->
-        <div class="canciones">
+       <!--  <div class="canciones">
           <p>1. Love Lost</p>
-          <audio controls class="audio-player">
+          <audio controls class="audio-player"> -->
                     <!-- Mp3 de prueba 1 -->
-                    <source src="Love Lost by Mac Miller.mp3"> 
+                  <!--   <source src="love.mp3"> 
                 </audio>
 
 
+        </div> -->
+
+
+
+     <!--  </div>
+   -->
+
+
+<!-- UNA SOLA CAJA DE REPRODUCTOR -->
+      <div class="canciones">
+        <!-- 1. Le ponemos id="nombre-cancion" para que JS cambie el texto -->
+        <p id="nombre-cancion">Thinking Bout You</p>
+        
+        <!--  Un solo audio con id="audio-player" -->
+        <audio id="audio-player" controls class="audio-player">
+          <source src="Thinkin Bout You by Frank Ocean.mp3" type="audio/mpeg">
+        </audio>
+
+
+        <!-- Agregamos los botones para avanzar y retroceder -->
+        <div class="controles">
+          <button id="btn-anterior">⏮ Anterior</button>
+          <button id="btn-siguiente">Siguiente ⏭</button>
         </div>
-
-
-
       </div>
-  
-
-
-
 
 
   </div>
+
+  <script src="script.js"></script> 
 </body>
 </html>

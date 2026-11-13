@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh; 
-    background: linear-gradient(135deg, #ea7d0f, #deb975);
+    background: linear-gradient(135deg, #dfaac9, #ec8d3a);
     font-family: "Redaction 10", serif;  
     padding: 20px; 
 }
@@ -65,4 +65,35 @@ p{
     display: flex;
     flex-direction: column; /* Apila las canciones una debajo de otra */
     gap: 15px; /* Crea una separación automática entre cada canción */
+}
+
+.audio-player {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+
+.controles {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.controles button {
+    background-color: #c682bd;
+    color: rgb(237, 187, 223);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+.controles button:hover {
+    background-color: #cd4c01;
 }
